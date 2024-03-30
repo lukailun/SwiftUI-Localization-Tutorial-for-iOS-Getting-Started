@@ -40,6 +40,13 @@ struct ContentView: View {
                comment: "The pluralized score.")
     }
 
+    private var appTitle: AttributedString {
+        AttributedString(
+            localized: "Welcome to _Country Quiz Time_",
+            comment: "App welcome title"
+        )
+    }
+
     var body: some View {
         ScrollView {
             content
@@ -65,7 +72,7 @@ struct ContentView: View {
 
     private var titleView: some View {
         VStack(alignment: .leading, spacing: 2) {
-            Text("Welcome to Country Quiz Time")
+            Text(appTitle)
                 .font(.largeTitle)
                 .foregroundColor(Color("Region"))
             Divider()
