@@ -94,7 +94,9 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView(quiz: Quiz())
+            .environment(\.locale, .init(identifier: "en"))
             ContentView(quiz: Quiz())
+            .environment(\.locale, .init(identifier: "es"))
         }
     }
 }

@@ -88,7 +88,9 @@ struct QuestionView_Previews: PreviewProvider {
     static var previews: some View {
         QuestionView(question: Question.mockQuestion)
             .environmentObject(Quiz())
+            .environment(\.locale, .init(identifier: "en"))
         QuestionView(question: Question.mockQuestion)
             .environmentObject(Quiz())
+            .environment(\.locale, .init(identifier: "es"))
     }
 }
