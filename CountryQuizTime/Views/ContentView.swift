@@ -36,8 +36,8 @@ struct ContentView: View {
     @ObservedObject var quiz: Quiz
     @State private var showResult = false
     private var scoreMessage: String {
-        let localizedString = NSLocalizedString("points-count %lld", comment: "The pluralized score")
-        return String(format: localizedString, quiz.score)
+        String(localized: "point-count \(quiz.score)",
+               comment: "The pluralized score.")
     }
 
     var body: some View {
@@ -94,9 +94,9 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView(quiz: Quiz())
-            .environment(\.locale, .init(identifier: "en"))
+                .environment(\.locale, .init(identifier: "en"))
             ContentView(quiz: Quiz())
-            .environment(\.locale, .init(identifier: "es"))
+                .environment(\.locale, .init(identifier: "es"))
         }
     }
 }
