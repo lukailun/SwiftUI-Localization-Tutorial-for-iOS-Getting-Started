@@ -1,28 +1,42 @@
-"Welcome to _Country Quiz Time_" = "^[Bienvenido](inflect: true, inflectionAlternative:'Te damos la bienvenida') a _Country Quiz Time_";
-
 /* Answer for question about Catalan */
-"Catalan.Answer" = "Catalan";
+"Catalan.Answer" = "Catalán";
 
 /* No comment provided by engineer. */
-"Catalan.Choices" = "Spanish;Catalan;French;Portuguese;Italian";
+"Catalan.Choices" = "Español;Catalán;Francés;Portugués;Italiano";
 
 /* No comment provided by engineer. */
-"Catalan.Question" = "Which language is spoken in Andorra?";
+"Catalan.Question" = "¿Qué idioma se habla en Andorra?";
+
+/* Correct message */
+"correctly" = "correctamente";
 
 /* No comment provided by engineer. */
 "DC.Answer" = "Washington D.C.";
 
 /* No comment provided by engineer. */
-"DC.Choices" = "New York City;San Francisco;Atlanta;Washington D.C.;Dallas;Los Angeles";
+"DC.Choices" = "New York;San Francisco;Atlanta;Washington D.C.;Dallas;Los Angeles";
 
 /* No comment provided by engineer. */
-"DC.Question" = "What is the capital of the United States?";
+"DC.Question" = "Cual es la capital de los Estados Unidos?";
+
+/* Incorrect message */
+"incorrectly" = "incorrectamente";
 
 /* No comment provided by engineer. */
-"Mexico.Answer" = "September 16";
+"Mexico.Answer" = "16 de septiembre";
 
 /* No comment provided by engineer. */
-"Mexico.Choices" = "January 5;February 24;March 21;May 5;September 16;November 1;November 20";
+"Mexico.Choices" = "5 de enero;24 de febrero;21 de marzo;5 de Mayo;16 de septiembre;1 de noviembre;20 de noviembre";
 
 /* No comment provided by engineer. */
-"Mexico.Question" = "What day is Mexican Independence Day?";
+"Mexico.Question" = "¿Qué día es el Día de la Independencia de México?";
+
+/* No comment provided by engineer. */
+"Next" = "Contiguo";
+
+/* App welcome title */
+"Welcome to _Country Quiz Time_" = "Bienvenido a _Country Quiz Time_";
+
+/* No comment provided by engineer. */
+"You answered %@" = "Respondiste %@";
+

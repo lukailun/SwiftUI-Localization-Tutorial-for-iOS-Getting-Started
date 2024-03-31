@@ -1,3 +1,6 @@
+/* Persistent score message */
+"**Score:** %lld" = "**Score:** ^[%lld Points](inflect: true)";
+
 /* Answer for question about Catalan */
 "Catalan.Answer" = "Catalan";
 
@@ -6,6 +9,9 @@
 
 /* No comment provided by engineer. */
 "Catalan.Question" = "Which language is spoken in Andorra?";
+
+/* Correct message */
+"correctly" = "correctly";
 
 /* No comment provided by engineer. */
 "DC.Answer" = "Washington D.C.";
@@ -16,6 +22,9 @@
 /* No comment provided by engineer. */
 "DC.Question" = "What is the capital of the United States?";
 
+/* Incorrect message */
+"incorrectly" = "incorrectly";
+
 /* No comment provided by engineer. */
 "Mexico.Answer" = "September 16";
 
@@ -25,6 +34,11 @@
 /* No comment provided by engineer. */
 "Mexico.Question" = "What day is Mexican Independence Day?";
 
-"Score: %lld" = "**Score:** ^[%lld ^[Points](grammar: { partOfSpeech: \"noun\" })]
-  (inflect: true)";
+/* No comment provided by engineer. */
+"Next" = "Next";
 
+/* App welcome title */
+"Welcome to _Country Quiz Time_" = "Welcome to _Country Quiz Time_";
+
+/* No comment provided by engineer. */
+"You answered %@" = "You answered %@";
