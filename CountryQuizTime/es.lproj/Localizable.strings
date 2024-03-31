@@ -1,4 +1,4 @@
-"Welcome to _Country Quiz Time_" = "Bienvenido a _Country Quiz Time_";
+"Welcome to _Country Quiz Time_" = "^[Bienvenido](inflect: true, inflectionAlternative:'Te damos la bienvenida') a _Country Quiz Time_";
 
 /* Answer for question about Catalan */
 "Catalan.Answer" = "Catalan";

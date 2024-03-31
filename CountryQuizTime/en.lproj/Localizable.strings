@@ -24,3 +24,7 @@
 
 /* No comment provided by engineer. */
 "Mexico.Question" = "What day is Mexican Independence Day?";
+
+"Score: %lld" = "**Score:** ^[%lld ^[Points](grammar: { partOfSpeech: \"noun\" })]
+  (inflect: true)";
+
